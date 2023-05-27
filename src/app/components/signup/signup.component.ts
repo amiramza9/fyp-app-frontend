@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
-import {student} from '../../dashboard-pages/student/student.component'
+//import {student} from '../../dashboard-pages/student/student.component'
 
 
 @Component({
@@ -14,7 +14,7 @@ export class SignupComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  std=new student();
+  //std=new student();
   form: any = {
     username: null,
     email: null,
